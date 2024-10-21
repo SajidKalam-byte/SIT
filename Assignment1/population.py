@@ -1,10 +1,8 @@
-<<<<<<< HEAD
-=======
+
 ''' In a town, the percentage of men is 52. The percentage of total literacy is 48. If total percentage
 of literate men is 35 of the total population, write a program to find the total number of
 illiterate men and women if the population of the town is 80,000'''
 
->>>>>>> bf898e2 (new file:   Assignment1/denomination.py)
 
 population = 80000
 
@@ -27,8 +25,8 @@ illiterate_men = men - literate_men
 illiterate_women = women - literate_women
 
 print(f"Illiterate Men: {int(illiterate_men)}")
-<<<<<<< HEAD
+
 print(f"Illiterate Women: {int(illiterate_women)}")
-=======
+
 print(f"Illiterate Women: {int(illiterate_women)}")
->>>>>>> bf898e2 (new file:   Assignment1/denomination.py)
+
