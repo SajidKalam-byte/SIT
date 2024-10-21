@@ -27,6 +27,3 @@ illiterate_women = women - literate_women
 print(f"Illiterate Men: {int(illiterate_men)}")
 
 print(f"Illiterate Women: {int(illiterate_women)}")
-
-print(f"Illiterate Women: {int(illiterate_women)}")
-
