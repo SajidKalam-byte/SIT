@@ -2,3 +2,5 @@
 The ASCII values vary from 0 to 255[chr(110) will print ascii character of the value 110. ord('A')
 will print corresponding ASCII value of 'A']'''
 
+for i in range(0, 256):
+    print(i, chr(i))  
