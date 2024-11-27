@@ -1,3 +1,5 @@
+'''Write a program to find the range of a set of numbers. Range is the difference between the 
+smallest and biggest number in the list. '''
 n=int(input("Enter a range: "))
 l=[0]*n
 for i in range(n):

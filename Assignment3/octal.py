@@ -1,3 +1,4 @@
+'''Write a program to find the octal equivalent of the entered number.'''
 n=int(input("Enter a decimal number to convert to octal: "))
 octal=0
 i=0

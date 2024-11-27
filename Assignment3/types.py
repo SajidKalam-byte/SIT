@@ -1,3 +1,4 @@
+'''Write a program to enter the numbers till the user wants and at the end it should display the count'''
 pos=0
 neg=0
 zeros=0
