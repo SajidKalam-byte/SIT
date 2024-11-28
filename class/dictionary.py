@@ -41,21 +41,11 @@
 #     sum+=i
 # print("Total Score = ",sum)
 
+pl=''
 max=0
 score={'pl1': 100, 'pl2':80, 'pl3':72, 'pl4': 85, 'pl5': 130, 'pl6': 102}
-for i in score.values():
-    if i>max:
-        max=i
-print("Maximum Score is ", max)
 for i in score.keys():
-     if i==max:
-        max=i
-print("Maximum Score is ", max)
-# pl=''
-# max=0
-# score={'pl1': 100, 'pl2':80, 'pl3':72, 'pl4': 85, 'pl5': 130, 'pl6': 102}
-# for i in score.keys():
-#     if score[i]>max:
-#         max=score[i]
-#         pl=i
-# print(pl, " scored ", max)
+    if score[i]>max:
+        max=score[i]
+        pl=i
+print(pl, " scored ", max)
